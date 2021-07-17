@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  border: 0;
+}
+
+body {
+  background-color: #090B1A;
+}
+
+.card {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #1B1938;
+  margin: 200px auto;
+  border-radius: 10px;
+  width: 1080px;
+}
+
+.card-info {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 540px;
+  padding: 40px 90px 60px 60px;
+  text-align: left;
+}
+.card-info h1 {
+  color: #FFFFFF;
+  font-size: 35px;
+  font-family: inter;
+  margin-bottom: 30px;
+}
+.card-info h1 span {
+  color: #AA5CDB;
+  font-size: 40px;
+}
+.card-info p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 18px;
+  line-height: 1.5;
+}
+.card-info ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 80px;
+}
+.card-info ul li h2 {
+  font-size: 25px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-family: inter;
+  margin-bottom: 10px;
+}
+.card-info ul li p {
+  color: rgba(255, 255, 255, 0.75);
+  text-transform: uppercase;
+  font-family: inter;
+  font-size: 15px;
+}
+
+.img {
+  width: 540px;
+  background-color: #6DB3F2;
+  background-image: url(../images/image-header-desktop.jpg);
+  border-radius: 0 10px 10px 0;
+  background: linear-gradient(rgba(170, 92, 219, 0.5), rgba(170, 92, 219, 0.5)), url(../images/image-header-desktop.jpg);
+}
+
+@media (max-width: 450px) {
+  .card {
+    flex-direction: column;
+    width: calc( 100vw - 30px );
+    overflow: hidden;
+    margin-top: 50px;
+  }
+  .card ul {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .card ul li {
+    margin-bottom: 40px;
+  }
+
+  .card-info {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+  .card-info h1 {
+    font-size: 30px;
+  }
+  .card-info h1 span {
+    font-size: 30px;
+  }
+
+  .img {
+    height: 300px;
+    background: linear-gradient(rgba(170, 92, 219, 0.5), rgba(170, 92, 219, 0.5)), url(../images/image-header-mobile.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

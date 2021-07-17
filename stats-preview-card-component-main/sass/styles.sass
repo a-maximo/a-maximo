@@ -1,0 +1,101 @@
+@import './_variables'
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap')
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+    font-size: 15px
+    border: 0
+
+body
+    background-color: $color-bg
+
+.card
+    display: flex
+    flex-direction: row-reverse
+    background-color: $color-bg-card
+    margin: 200px auto
+    border-radius: 10px
+    width: 1080px
+.card-info
+    box-sizing: border-box
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-around
+    width: 540px
+    padding: 40px 90px 60px 60px
+    text-align: left
+    h1
+        color: $white
+        font-size: 35px
+        font-family: inter
+        margin-bottom: 30px
+        span
+            color: $color-detach
+            font-size: 40px
+    p
+        color: $white-main
+        font-size: 18px
+        line-height: 1.5  
+        
+    ul
+        list-style: none
+        display: flex
+        justify-content: space-between
+        width: 100%
+        margin-top: 80px
+        li
+            h2
+                font-size: 25px
+                color: $white
+                text-transform: uppercase
+                font-family: inter
+                margin-bottom: 10px
+            p
+                color: $white-heading
+                text-transform: uppercase
+                font-family: inter 
+                font-size: 15px
+
+    
+.img
+    width: 540px
+    // height: 446px
+    background-color: #6DB3F2
+    background-image: url(../images/image-header-desktop.jpg)
+    border-radius: 0 10px 10px 0
+    background: linear-gradient(rgba(170,92,219,.5),rgba(170,92,219,.5)), url(../images/image-header-desktop.jpg) 
+
+@media (max-width:450px)
+    .card
+        flex-direction: column
+        width: calc( 100vw - 30px )
+        overflow: hidden
+        margin-top: 50px
+        ul
+            flex-direction: column
+            margin-top: 20px
+            li
+                margin-bottom: 40px
+    .card-info
+        width: 100%
+        padding: 30px
+        text-align: center
+        h1
+            font-size: 30px
+            span
+                font-size: 30px
+        
+    .img
+        height: 300px
+        background: linear-gradient(rgba(170,92,219,.5),rgba(170,92,219,.5)), url(../images/image-header-mobile.jpg) 
+        background-size: auto 100%
+
+        // background-position: 50% 50%
+        background-repeat: no-repeat
+        // background-size: cover
+        // position: relative
+
+    
