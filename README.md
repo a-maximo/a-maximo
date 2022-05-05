@@ -1,6 +1,6 @@
 - 👋 Hello, my name is Anthony Máximo,
 - 👀 I'm a front-end dev.  
-- 🌱 I work and study on Vue.js.
+- 🌱 I work with Vue.js.
 - 📫 (Portuguese)Meu contato via whatsapp é 019981884125
 - 📫 (English)You can mail me: anthony.fmaximo@gmail.com
 
