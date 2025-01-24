@@ -1,6 +1,6 @@
 - 👋 Hello, my name is Anthony Máximo,
 - 👀 I'm a Full-stack dev.  
-- 🌱 I work with Vue.js and C#.
+- 🌱 I work with Go, Vue.js and C#.
 - 📫 (Portuguese)Meu contato via whatsapp é 019981884125
 - 📫 (English)You can mail me: anthony.fmaximo@gmail.com
 
